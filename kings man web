@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PRINCE BEATS | Music Producer Bamenda</title>
+<style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: system-ui; background:#0a0a0a; color:#fff; line-height:1.6; }
+  .container { max-width:800px; margin:auto; padding:20px; }
+  header { text-align:center; padding:60px 20px; background:linear-gradient(135deg,#1DB954,#191414); }
+  h1 { font-size:2.5rem; margin-bottom:10px; }
+  .tag { color:#1DB954; font-weight:600; }
+  .btn { background:#1DB954; color:#000; padding:14px 28px; border-radius:50px; text-decoration:none; font-weight:bold; display:inline-block; margin:15px 5px; transition:0.2s; }
+  .btn:hover { transform:scale(1.05); }
+  .beats { padding:40px 20px; }
+  .beat { background:#1a1a1a; padding:20px; margin:20px 0; border-radius:15px; border:1px solid #333; }
+  .beat img { width:100%; border-radius:10px; margin-bottom:15px; }
+  .beat h3 { color:#1DB954; margin-bottom:10px; }
+  audio { width:100%; margin:10px 0; }
+  .price { background:#333; padding:8px 15px; border-radius:20px; font-size:0.9rem; display:inline-block; }
+  .about { padding:40px 20px; background:#111; text-align:center; }
+  .credits { display:flex; gap:15px; justify-content:center; flex-wrap:wrap; margin:20px 0; }
+  .credit { background:#222; padding:10px 15px; border-radius:8px; font-size:0.9rem; }
+  footer { text-align:center; padding:40px 20px; color:#888; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>PRINCE BEATS</h1>
+      <p class="tag">Afro • Trap • Amapiano Producer | Bamenda, CM</p>
+      <a href="https://wa.me/2376XXXXXXX?text=I%20need%20beats" class="btn">WhatsApp for Beats</a>
+      <a href="#beats" class="btn" style="background:#333;color:#fff;">Listen Now</a>
+    </div>
+  </header>
+
+  <section class="beats" id="beats">
+    <div class="container">
+      <h2 style="text-align:center;margin-bottom:30px;">Latest Beats</h2>
+      
+      <div class="beat">
+        <img src="cover1.jpg" alt="Midnight in Bamenda">
+        <h3>Midnight in Bamenda</h3>
+        <p>Afro Trap | 140 BPM | Key: F# Minor</p>
+        <audio controls><source src="beat1.mp3" type="audio/mpeg"></audio>
+        <span class="price">Lease: 15,000 XAF | Exclusive: 150,000 XAF</span>
+      </div>
+
+      <div class="beat">
+        <img src="cover2.jpg" alt="Njangi Riddim">
+        <h3>Njangi Riddim</h3>
+        <p>Amapiano | 112 BPM | Key: C Minor</p>
+        <audio controls><source src="beat2.mp3" type="audio/mpeg"></audio>
+        <span class="price">Lease: 20,000 XAF | Exclusive: 200,000 XAF</span>
+      </div>
+
+      <div class="beat">
+        <img src="cover3.jpg" alt="Grassfield Soul">
+        <h3>Grassfield Soul</h3>
+        <p>Afrobeat | 105 BPM | Key: G Major</p>
+        <audio controls><source src="beat3.mp3" type="audio/mpeg"></audio>
+        <span class="price">Lease: 15,000 XAF | Exclusive: 150,000 XAF</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <h2>About Prince</h2>
+      <p style="max-width:600px;margin:20px auto;">Producer from Bamenda bringing authentic African sound to the world. Specializing in Afro-trap, Amapiano, and Afrobeat. Let's create your next hit.</p>
+      <div class="credits">
+        <div class="credit">✅ 50+ Beats Sold</div>
+        <div class="credit">🎧 100k+ Streams</div>
+        <div class="credit">🌍 Worked with artists in 3 countries</div>
+      </div>
+      <a href="https://wa.me/2376XXXXXXX?text=Custom%20beat%20request" class="btn">Request Custom Beat</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Prince Beats | Built by GetToPrince</p>
+    <p>Want a site like this? <a href="https://gettoprince.github.io" style="color:#1DB954;">Hire me</a></p>
+  </footer>
+</body>
+</html>
